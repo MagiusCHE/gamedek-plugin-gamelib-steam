@@ -1,0 +1,2 @@
+# gamelib.steam
+Gamedek plugin
