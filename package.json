@@ -1,130 +1,17 @@
 {
   "name": "it.magius.gamedek.plugin.gamelib.steam",
   "version": "1.0.0",
-  "description": "Gamedek Module",
+  "description": "Gamedek plugin for importing game entries from Steam",
   "main": "plugin.js",
   "repository": "https://github.com/MagiusCHE/gamedek-plugin-gamelib-steam.git",
-      "author": {
-        "name": "Magius(CHE)",
-        "email": "magiusche@magius.it"
-      },
-  "license": "GNU GPL",
-  "private": false
-}
-{
-  "name": "it.magius.gamedek.plugin.gamelib.steam",
-  "version": "1.0.0",
-  "description": "Gamedek Module",
-  "main": "plugin.js",
-  "repository": "https://github.com/MagiusCHE/gamedek-plugin-gamelib-steam.git",
-      "author": {
-        "name": "Magius(CHE)",
-        "email": "magiusche@magius.it"
-      },
-  "license": "GNU GPL",
-  "private": false
-}
-{
-  "name": "it.magius.gamedek.plugin.gamelib.steam",
-  "version": "1.0.0",
-  "description": "Gamedek Module",
-  "main": "plugin.js",
-  "repository": "https://github.com/MagiusCHE/gamedek-plugin-gamelib-steam.git",
-      "author": {
-        "name": "Magius(CHE)",
-        "email": "magiusche@magius.it"
-      },
-  "license": "GNU GPL",
-  "private": false
-}
-{
-  "name": "it.magius.gamedek.plugin.gamelib.steam",
-  "version": "1.0.0",
-  "description": "Gamedek Module",
-  "main": "plugin.js",
-  "repository": "https://github.com/MagiusCHE/gamedek-plugin-gamelib-steam.git",
-      "author": {
-        "name": "Magius(CHE)",
-        "email": "magiusche@magius.it"
-      },
-  "license": "GNU GPL",
-  "private": false
-}
-{
-  "name": "it.magius.gamedek.plugin.gamelib.steam",
-  "version": "1.0.0",
-  "description": "Gamedek Module",
-  "main": "plugin.js",
-  "repository": "https://github.com/MagiusCHE/gamedek-plugin-gamelib-steam.git",
-      "author": {
-        "name": "Magius(CHE)",
-        "email": "magiusche@magius.it"
-      },
-  "license": "GNU GPL",
-  "private": false
-}
-{
-  "name": "it.magius.gamedek.plugin.gamelib.steam",
-  "version": "1.0.0",
-  "description": "Gamedek Module",
-  "main": "plugin.js",
-  "repository": "https://github.com/MagiusCHE/gamedek-plugin-gamelib-steam.git",
-      "author": {
-        "name": "Magius(CHE)",
-        "email": "magiusche@magius.it"
-      },
-  "license": "GNU GPL",
-  "private": false
-}
-{
-  "name": "it.magius.gamedek.plugin.gamelib.steam",
-  "version": "1.0.0",
-  "description": "Gamedek Module",
-  "main": "plugin.js",
-  "repository": "https://github.com/MagiusCHE/gamedek-plugin-gamelib-steam.git",
-      "author": {
-        "name": "Magius(CHE)",
-        "email": "magiusche@magius.it"
-      },
-  "license": "GNU GPL",
-  "private": false
-}
-{
-  "name": "it.magius.gamedek.plugin.gamelib.steam",
-  "version": "1.0.0",
-  "description": "Gamedek Module",
-  "main": "plugin.js",
-  "repository": "https://github.com/MagiusCHE/gamedek-plugin-gamelib-steam.git",
-      "author": {
-        "name": "Magius(CHE)",
-        "email": "magiusche@magius.it"
-      },
-  "license": "GNU GPL",
-  "private": false
-}
-{
-  "name": "it.magius.gamedek.plugin.gamelib.steam",
-  "version": "1.0.0",
-  "description": "Gamedek Module",
-  "main": "plugin.js",
-  "repository": "https://github.com/MagiusCHE/gamedek-plugin-gamelib-steam.git",
-      "author": {
-        "name": "Magius(CHE)",
-        "email": "magiusche@magius.it"
-      },
-  "license": "GNU GPL",
-  "private": false
-}
-{
-  "name": "it.magius.gamedek.plugin.gamelib.steam",
-  "version": "1.0.0",
-  "description": "Gamedek Module",
-  "main": "plugin.js",
-  "repository": "https://github.com/MagiusCHE/gamedek-plugin-gamelib-steam.git",
-      "author": {
-        "name": "Magius(CHE)",
-        "email": "magiusche@magius.it"
-      },
-  "license": "GNU GPL",
-  "private": false
+  "author": {
+    "name": "Magius(CHE)",
+    "email": "magiusche@magius.it"
+  },
+  "license": "GPL-3.0-or-later",
+  "private": false,
+  "dependencies": {
+    "node-vdf": "^0.0.3",
+    "ps-node": "^0.1.6"
+  }
 }
