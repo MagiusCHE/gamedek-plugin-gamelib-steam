@@ -75,7 +75,7 @@ class myplugin extends global.Plugin {
                 engine: {
                     type: "readonly"
                     , label: await kernel.translateBlock('${lang.ge_steam_engine}')
-                    , default: 'Stream'
+                    , default: 'Steam'
                 },
                 appid: {
                     type: "readonly"
