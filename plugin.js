@@ -343,8 +343,8 @@ class myplugin extends global.Plugin {
         const game = games.find(g => g.hash == hash)
         if (!game) {
             returns.error = {
-                title: await kernel.translateBlock('${lang.ge_com_info_filenotfound_title}'),
-                message: await kernel.translateBlock('${lang.ge_com_info_filenotfound "' + 'hash' + '" "' + hash + '"}'),
+                title: await kernel.translateBlock('${lang.ge_com_filenotfound_title}'),
+                message: await kernel.translateBlock('${lang.ge_com_filenotfound "' + 'hash' + '" "' + hash + '"}'),
             }
             return returns
         }
@@ -356,6 +356,7 @@ class myplugin extends global.Plugin {
         const args = {
             executable: this.#steamBin,
             detached: true,
+            env: game.props.system?.env,
             arguments: ['-silent', 'steam://rungameid/' + game.props.steam.appid]
         }
         const ret = (await kernel.broadcastPluginMethod('fileservice', 'spawnBinOrScript', args)).returns.last
