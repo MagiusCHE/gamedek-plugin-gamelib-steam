@@ -356,7 +356,7 @@ class myplugin extends global.Plugin {
         const args = {
             executable: this.#steamBin,
             detached: true,
-            env: game.props.system?.env,
+            env: { ...process.env, ...game.props.system?.env },
             arguments: ['-silent', 'steam://rungameid/' + game.props.steam.appid]
         }
         const ret = (await kernel.broadcastPluginMethod('fileservice', 'spawnBinOrScript', args)).returns.last
