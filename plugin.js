@@ -110,11 +110,11 @@ class myplugin extends global.Plugin {
 
             const appids = {}
 
-            for (const idx in libraryfolders.LibraryFolders) {
+            for (const idx in libraryfolders.libraryfolders) {
                 if (isNaN(idx)) {
                     continue
                 }
-                const folder = path.join(libraryfolders.LibraryFolders[idx], 'steamapps')
+                const folder = path.join(libraryfolders.libraryfolders[idx].path, 'steamapps')
                 if (fs.existsSync(folder) && fs.statSync(folder).isDirectory()) {
                     for (const d of fs.readdirSync(folder)) {
                         if (path.extname(d).toLowerCase() != '.acf') {
